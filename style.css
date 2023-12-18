@@ -1,0 +1,25 @@
+html {
+    background-color: #F6F7EB;
+    color: #5C415D;
+}
+.title-container, .question-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.answers-container {
+    display: flex;
+    justify-content: center;
+}
+.check-question-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #E94F37;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 6px;
+}

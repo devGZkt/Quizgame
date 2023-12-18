@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Who was president before Barack Obama?",
+        "answers": ["Donald Trump", "George Bush", "Jimmy Carter", "Bill Clinton"],
+        "rightAnswer": "George Bush"
+        },
+        {
+        "question": "In which city are you if you are standing on the spanish steps?",
+        "answers": ["Madrid", "Paris", "London", "Rome"],
+        "rightAnswer": "Rome"
+        },
+        {
+        "question": "In what year was the UNO created?",
+        "answers": ["1945", "1952", "1938", "1965"],
+        "rightAnswer": "1945"
+        }
+]
