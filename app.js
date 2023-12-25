@@ -22,12 +22,11 @@ var questions = [
   
   generateQuestion();
   
+  let resultPlyr = document.getElementById('result');
   function generateQuestion() {
     if (questionIndex >= questions.length) {
-      // let parendElmResult = document.getElementById('result');
-  
-      // scoreText.appendChild(praragraph)
-      showResults()
+      resultPlyr.innerHTML = `Your score is ${plyrScore}/3`
+      return;
     }
   
     var currentQuestion = questions[questionIndex];
@@ -48,17 +47,9 @@ var questions = [
   
       if (btnClicked === currentQuestion.rightAnswer) {
         plyrScore++;
-        console.log(plyrScore);
+
       } 
-  
+      console.log(plyrScore)
       generateQuestion();
     });
   });
-
-
-function showResults(){
-  let parendElmResult = document.getElementById("result");
-  
-  scoreText.createElement("p");
-  console.log('hello world');
-}
